@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Sandia</string>
+
+    <string name="text_name">Name:</string>
+    <string name="text_phone">Phone:</string>
+    <string name="text_email">Email:</string>
+    <string name="text_save">Save</string>
+
+    <string name="text_new_contact">Add new contact</string>
 </resources>
