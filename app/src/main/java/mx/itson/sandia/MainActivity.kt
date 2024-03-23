@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnContactForm = findViewById<Button>(R.id.button_new_contact)
         btnContactForm.setOnClickListener(this)
+
+        val btnContactList = findViewById<Button>(R.id.button_list_contact)
+        btnContactList.setOnClickListener(this)
         //Efectos de prueba
         //Contact().save(this, "Axel", "6221234567", "axel@correo.com")
     }
@@ -23,6 +26,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.button_new_contact -> {
                 val intentFormContact = Intent(this, ContactFormActivity::class.java)
                 startActivity(intentFormContact)
+            }
+            R.id.button_list_contact -> {
+                val intentListContact = Intent(this, ContactListActivity::class.java)
+                startActivity(intentListContact)
             }
         }
     }

@@ -12,4 +12,10 @@
         android:layout_height="wrap_content"
         android:text="@string/text_new_contact"/>
 
+    <Button
+        android:id="@+id/button_list_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_list_contact"/>
+
 </LinearLayout>

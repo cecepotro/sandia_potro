@@ -7,4 +7,5 @@
     <string name="text_save">Save</string>
 
     <string name="text_new_contact">Add new contact</string>
+    <string name="text_list_contact">View contacts</string>
 </resources>
